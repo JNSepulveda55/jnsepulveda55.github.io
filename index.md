@@ -12,7 +12,10 @@ title: Juan Nicolas Sepulveda Arias — CV
 />
 
 **MSc Student (Computer Vision) @ MBZUAI** · AI Safety & Security · Research internship candidate (2026)  
-Abu Dhabi, UAE · `jn.sepulveda55@gmail.com` · +971 58 538 1633 · `jnsepulveda55.github.io` · github.com/JNSepulveda55 · `linkedin.com/in/juannicosepulveda` · orcid.org/0009-0000-0619-0704 · `[My CV](/assets/JuanNicolasSepulveda_CV.pdf)`
+Abu Dhabi, UAE · `jn.sepulveda55@gmail.com` · +971 58 538 1633 · `jnsepulveda55.github.io` · github.com/JNSepulveda55 · `linkedin.com/in/juannicosepulveda` · orcid.org/0009-0000-0619-0704
+
+CV PDF: [JuanNicolasSepulveda_CV.pdf]({{ '/assets/JuanNicolasSepulveda_CV.pdf' | relative_url }})
+
 
 ---
 
