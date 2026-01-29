@@ -4,9 +4,15 @@ title: Juan Nicolas Sepulveda Arias — CV
 ---
 
 # Juan Nicolas Sepulveda Arias
+
+<img
+  src="{{ '/assets/img/profile.jpg' | relative_url }}"
+  alt="Juan Nicolas Sepulveda Arias"
+  style="width:160px;height:160px;border-radius:50%;object-fit:cover;"
+/>
+
 **MSc Student (Computer Vision) @ MBZUAI** · AI Safety & Security · Research internship candidate (2026)  
-Abu Dhabi, UAE · `jn.sepulveda55@gmail.com` · +971 58 538 1633  
-Website: `jnsepulveda55.github.io` · GitHub: `github.com/JNSepulveda55` · LinkedIn: `linkedin.com/in/juannicosepulveda` · ORCID: `orcid.org/0009-0000-0619-0704` · CV PDF: `/assets/JuanNicolasSepulveda_CV.pdf`
+Abu Dhabi, UAE · `jn.sepulveda55@gmail.com` · +971 58 538 1633 · `jnsepulveda55.github.io` · github.com/JNSepulveda55 · `linkedin.com/in/juannicosepulveda` · orcid.org/0009-0000-0619-0704 · `/assets/JuanNicolasSepulveda_CV.pdf`
 
 ---
 
@@ -39,7 +45,7 @@ I work on **AI safety & fairness for generative models**, with emphasis on **adv
 ## Research experience
 ### Graduate Researcher — MBZUAI (Abu Dhabi, UAE)
 *Aug 2025 – Present*  
-- Research under **Prof. Nils Lukas**.  
+- Research under **[Nils Lukas](https://scholar.google.com/citations?user=fmlEab4AAAAJ&hl=en)**.  
 - Literature review and synthesis on **AI fairness metrics** and **state-of-the-art watermarking** methods for generative models.
 
 ---
@@ -58,18 +64,17 @@ I work on **AI safety & fairness for generative models**, with emphasis on **adv
 
 ---
 
-## Selected projects (with links)
+## Selected projects
 ### Using GANs to Detect Cyberthreats — *Malware generation + detection with interpretability*
 - Trained a GAN on VirusShare to detect/generate obfuscated and non-obfuscated binary malware samples.
 - Achieved **+3%** benchmark accuracy improvement (**92% → 95%**) vs. a previous CNN approach.
 - Added interpretability (hooks, GradCAM) and binary reverse-engineering analysis.
 - Presented at **BSIDES Colombia 2024** (cybersecurity conference).  
-Links: [code](#) · [slides/poster](#) · [write-up](#)
 
 ### Traffic Signs Recognition Systems — *Weather-robust detection with YOLOv8*
 - Fine-tuned YOLOv8 on GTSRB; simulated fog/night/rain via data augmentation.
 - Modified the final layer and improved **mAP50–95: 0.39 → 0.65**.  
-Links: [code](#) · [report](#)
+  [Code](https://github.com/cpmarco/traffic-sign-detection-yolov8)
 
 ---
 
@@ -111,4 +116,3 @@ Links: [code](#) · [report](#)
 ## Contact
 Email: `jn.sepulveda55@gmail.com`  
 Location/Timezone: Abu Dhabi (Asia/Dubai, UTC+4)  
-Availability: weekdays, flexible with notice
