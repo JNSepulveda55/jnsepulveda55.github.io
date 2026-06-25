@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Juan Nicolas Sepulveda Arias | AI Safety &amp; Computer Vision</title>
+    <meta
+      name="description"
+      content="Portfolio of Juan Nicolas Sepulveda Arias, MSc Computer Vision student at MBZUAI focused on AI safety, security, robustness, watermarking, and computer vision."
+    >
+    <meta property="og:title" content="Juan Nicolas Sepulveda Arias">
+    <meta
+      property="og:description"
+      content="AI safety, security, and computer vision portfolio with selected projects, research focus, experience, and CV."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/profile.jpg">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preload" as="image" href="assets/img/profile.jpg">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Juan Nicolas Sepulveda Arias home">JNSA</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">MSc Computer Vision @ MBZUAI</p>
+          <h1>Juan Nicolas Sepulveda Arias</h1>
+          <p class="hero__lead">
+            AI safety, security, and computer vision researcher focused on robustness evaluation,
+            watermarking, and generative model security.
+          </p>
+          <div class="hero__actions" aria-label="Primary links">
+            <a class="button button--primary" href="assets/JuanNicolasSepulveda_CV.pdf">Download CV</a>
+            <a class="button" href="https://github.com/JNSepulveda55">GitHub</a>
+            <a class="button" href="https://linkedin.com/in/juannicosepulveda">LinkedIn</a>
+            <a class="button" href="mailto:jn.sepulveda55@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <figure class="hero__portrait">
+          <img src="assets/img/profile.jpg" alt="Juan Nicolas Sepulveda Arias at BSIDES Colombia 2024">
+          <figcaption>
+            <span>BSIDES Colombia 2024</span>
+            <span>Generative models for cyberthreat detection</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="snapshot" aria-label="Profile snapshot">
+        <article>
+          <span class="snapshot__value">2026</span>
+          <span class="snapshot__label">Research internship candidate</span>
+        </article>
+        <article>
+          <span class="snapshot__value">95%</span>
+          <span class="snapshot__label">Malware benchmark accuracy</span>
+        </article>
+        <article>
+          <span class="snapshot__value">0.65</span>
+          <span class="snapshot__label">mAP50-95 after YOLOv8 tuning</span>
+        </article>
+        <article>
+          <span class="snapshot__value">Top</span>
+          <span class="snapshot__label">CGPA in undergraduate cohort</span>
+        </article>
+      </section>
+
+      <section class="section section--focus" id="research">
+        <div class="section__intro">
+          <p class="eyebrow">Research Focus</p>
+          <h2>Safety-centered work on generative models and visual systems.</h2>
+          <p>
+            I work on AI safety and fairness for generative models, with emphasis on adversarial
+            robustness, red-teaming, and content authenticity.
+          </p>
+        </div>
+
+        <div class="focus-grid">
+          <article class="focus-card">
+            <h3>Generative Model Safety</h3>
+            <p>Evaluation of failure modes, fairness metrics, and security risks in modern AI systems.</p>
+            <div class="tag-list" aria-label="Generative model safety keywords">
+              <span>AI safety</span>
+              <span>Fairness</span>
+              <span>Evaluation</span>
+            </div>
+          </article>
+          <article class="focus-card">
+            <h3>Robustness &amp; Red-Teaming</h3>
+            <p>Jailbreak robustness, adversarial testing, and failure analysis for LLM and vision systems.</p>
+            <div class="tag-list" aria-label="Robustness keywords">
+              <span>Red-teaming</span>
+              <span>Jailbreaks</span>
+              <span>Security</span>
+            </div>
+          </article>
+          <article class="focus-card">
+            <h3>Watermarking &amp; Authenticity</h3>
+            <p>Content provenance and watermarking methods for diffusion models, LLMs, and generated media.</p>
+            <div class="tag-list" aria-label="Watermarking keywords">
+              <span>Watermarking</span>
+              <span>Diffusion models</span>
+              <span>LLMs</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section__intro">
+          <p class="eyebrow">Featured Work</p>
+          <h2>Projects presented as evidence, not just entries.</h2>
+          <p>
+            The strongest work is grouped around outcomes, methods, and technical signals visitors can scan quickly.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-card--wide">
+            <div class="project-card__body">
+              <p class="project-card__kicker">Malware generation + detection with interpretability</p>
+              <h3>Using GANs to Detect Cyberthreats</h3>
+              <p>
+                Trained a GAN on VirusShare to detect and generate obfuscated and non-obfuscated
+                binary malware samples, with interpretability and reverse-engineering analysis.
+              </p>
+              <div class="project-card__links">
+                <a href="#experience">BSIDES Colombia 2024</a>
+              </div>
+            </div>
+            <dl class="metric-list">
+              <div>
+                <dt>Accuracy</dt>
+                <dd>92% to 95%</dd>
+              </div>
+              <div>
+                <dt>Methods</dt>
+                <dd>GANs, GradCAM, hooks</dd>
+              </div>
+              <div>
+                <dt>Domain</dt>
+                <dd>Cybersecurity</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__body">
+              <p class="project-card__kicker">Weather-robust detection with YOLOv8</p>
+              <h3>Traffic Signs Recognition Systems</h3>
+              <p>
+                Fine-tuned YOLOv8 on GTSRB with simulated fog, night, and rain, then tuned the final layer
+                to improve detection robustness.
+              </p>
+              <div class="project-card__links">
+                <a href="https://github.com/cpmarco/traffic-sign-detection-yolov8">Code</a>
+              </div>
+            </div>
+            <dl class="metric-list">
+              <div>
+                <dt>mAP50-95</dt>
+                <dd>0.39 to 0.65</dd>
+              </div>
+              <div>
+                <dt>Stack</dt>
+                <dd>YOLOv8, GTSRB</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--timeline" id="experience">
+        <div class="section__intro">
+          <p class="eyebrow">Experience</p>
+          <h2>A compact timeline of research, engineering, and leadership.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline__item">
+            <time>2025 - 2027</time>
+            <div>
+              <h3>MSc in Computer Vision, MBZUAI</h3>
+              <p>Fully funded scholarship with coursework in generative AI safety, ML security, and visual computing.</p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <time>2025 - Present</time>
+            <div>
+              <h3>Graduate Researcher, MBZUAI</h3>
+              <p>Research under Nils Lukas on AI fairness metrics and watermarking methods for generative models.</p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <time>2024</time>
+            <div>
+              <h3>RLHF/SFT Python Coder, Turing</h3>
+              <p>Produced code-writing examples and rubric-based evaluations for model failure analysis.</p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <time>2023 - 2024</time>
+            <div>
+              <h3>Software Engineering Intern, DevSavant</h3>
+              <p>Built and deployed a Django and OpenAI API MVP for assisted autobiography writing.</p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <time>2024</time>
+            <div>
+              <h3>IEEE Computer Society Student Chapter President</h3>
+              <p>Organized competitions, executive AI workshops, and the Code The Future hackathon.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section__intro">
+          <p class="eyebrow">Technical Toolkit</p>
+          <h2>Grouped for scanning across research and implementation.</h2>
+        </div>
+
+        <div class="skill-groups">
+          <section class="skill-group" aria-labelledby="skills-ai">
+            <h3 id="skills-ai">ML / AI</h3>
+            <div class="tag-list">
+              <span>PyTorch</span>
+              <span>HuggingFace</span>
+              <span>Lightning</span>
+              <span>FastAI</span>
+              <span>GradCAM</span>
+              <span>Failure analysis</span>
+            </div>
+          </section>
+          <section class="skill-group" aria-labelledby="skills-dev">
+            <h3 id="skills-dev">Development</h3>
+            <div class="tag-list">
+              <span>Django</span>
+              <span>FastAPI</span>
+              <span>Git / GitHub</span>
+              <span>Linux</span>
+              <span>GCP</span>
+            </div>
+          </section>
+          <section class="skill-group" aria-labelledby="skills-language">
+            <h3 id="skills-language">Languages</h3>
+            <div class="tag-list">
+              <span>Spanish native</span>
+              <span>English C1</span>
+              <span>Portuguese B2</span>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Open to 2026 AI safety, security, and generative model research internships.</h2>
+        </div>
+        <div class="contact__links">
+          <a href="mailto:jn.sepulveda55@gmail.com">jn.sepulveda55@gmail.com</a>
+          <a href="https://github.com/JNSepulveda55">github.com/JNSepulveda55</a>
+          <a href="https://linkedin.com/in/juannicosepulveda">linkedin.com/in/juannicosepulveda</a>
+          <a href="https://orcid.org/0009-0000-0619-0704">ORCID</a>
+          <a href="old/">Legacy CV page</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Juan Nicolas Sepulveda Arias</span>
+      <a href="assets/JuanNicolasSepulveda_CV.pdf">CV PDF</a>
+    </footer>
+  </body>
+</html>
